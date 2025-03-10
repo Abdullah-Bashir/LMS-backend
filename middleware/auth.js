@@ -8,7 +8,7 @@ export const generateToken = (user) => {
 export const authMiddleware = async (req, res, next) => {
     try {
 
-        // Check for token in cookie
+        // Check for token in cookies
         const token = req.cookies.token;
 
 
